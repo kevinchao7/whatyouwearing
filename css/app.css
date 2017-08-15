@@ -1,4 +1,3 @@
-
-.center-text{
-  text-align:center;
+html,body{
+  min-width:430px;
 }

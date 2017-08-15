@@ -21,7 +21,6 @@ $('.button').on('click',function(){
 // Listener
 database.ref().on('value',function(snapshot){
   var snap = snapshot.val();
-  console.log(snap);
   var user1color = snap.users.user1;
   var user2color = snap.users.user2;
   $('#user1shirt').css('background-color', user1color.toLowerCase());
